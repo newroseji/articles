@@ -23,11 +23,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+          <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/composer.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="286">
-                  <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                <state relative-caret-position="198">
+                  <caret line="9" column="27" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -306,7 +306,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/xampp/htdocs/articles/storage/logs/laravel.log&#10;show&#9;FILE&#9;file://C:/xampp/htdocs/articles/resources/views/article/show.blade.php&#10;config/app&#9;FILE&#9;file://C:/xampp/htdocs/articles/config/app.php&#10;rout&#9;FILE&#9;file://C:/xampp/htdocs/articles/app/Http/routes.php&#10;das&#9;FILE&#9;file://C:/xampp/htdocs/articles/resources/views/user/dashboard.blade.php&#10;fa&#9;FILE&#9;file://C:/xampp/htdocs/articles/database/factories/ModelFactory.php&#10;ar&#9;FILE&#9;file://C:/xampp/htdocs/articles/app/Http/Controllers/ArticlesController.php&#10;d&#9;FILE&#9;file://C:/xampp/htdocs/articles/resources/views/user/dashboard.blade.php&#10;pas&#9;FILE&#9;file://C:/xampp/htdocs/articles/resources/views/auth/emails/password.blade.php&#10;reset&#9;FILE&#9;file://C:/xampp/htdocs/articles/resources/views/auth/passwords/reset.blade.php&#10;regis&#9;FILE&#9;file://C:/xampp/htdocs/articles/resources/views/auth/register.blade.php&#10;login&#9;FILE&#9;file://C:/xampp/htdocs/articles/resources/views/auth/login.blade.php&#10;index&#9;FILE&#9;file://C:/xampp/htdocs/articles/resources/views/article/index.blade.php&#10;illuminate\Database\Eloquent\Model&#9;null&#9;null&#10;route&#9;FILE&#9;file://C:/xampp/htdocs/articles/app/Http/routes.php&#10;edit&#9;FILE&#9;file://C:/xampp/htdocs/articles/resources/views/article/edit.blade.php&#10;art&#9;FILE&#9;file://C:/xampp/htdocs/articles/app/Article.php&#10;articlere&#9;null&#9;null&#10;exc&#9;FILE&#9;file://C:/xampp/htdocs/articles/database/migrations/2016_11_30_014036_add_excerpt_to_articles_table.php&#10;Illuminate\Database\Query\Builder&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/xampp/htdocs/articles/composer.json&#10;show&#9;FILE&#9;file://C:/xampp/htdocs/articles/resources/views/article/show.blade.php&#10;config/app&#9;FILE&#9;file://C:/xampp/htdocs/articles/config/app.php&#10;rout&#9;FILE&#9;file://C:/xampp/htdocs/articles/app/Http/routes.php&#10;das&#9;FILE&#9;file://C:/xampp/htdocs/articles/resources/views/user/dashboard.blade.php&#10;fa&#9;FILE&#9;file://C:/xampp/htdocs/articles/database/factories/ModelFactory.php&#10;ar&#9;FILE&#9;file://C:/xampp/htdocs/articles/app/Http/Controllers/ArticlesController.php&#10;d&#9;FILE&#9;file://C:/xampp/htdocs/articles/resources/views/user/dashboard.blade.php&#10;pas&#9;FILE&#9;file://C:/xampp/htdocs/articles/resources/views/auth/emails/password.blade.php&#10;reset&#9;FILE&#9;file://C:/xampp/htdocs/articles/resources/views/auth/passwords/reset.blade.php&#10;regis&#9;FILE&#9;file://C:/xampp/htdocs/articles/resources/views/auth/register.blade.php&#10;login&#9;FILE&#9;file://C:/xampp/htdocs/articles/resources/views/auth/login.blade.php&#10;index&#9;FILE&#9;file://C:/xampp/htdocs/articles/resources/views/article/index.blade.php&#10;illuminate\Database\Eloquent\Model&#9;null&#9;null&#10;route&#9;FILE&#9;file://C:/xampp/htdocs/articles/app/Http/routes.php&#10;edit&#9;FILE&#9;file://C:/xampp/htdocs/articles/resources/views/article/edit.blade.php&#10;art&#9;FILE&#9;file://C:/xampp/htdocs/articles/app/Article.php&#10;articlere&#9;null&#9;null&#10;exc&#9;FILE&#9;file://C:/xampp/htdocs/articles/database/migrations/2016_11_30_014036_add_excerpt_to_articles_table.php&#10;Illuminate\Database\Query\Builder&#9;null&#9;null" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
@@ -383,15 +383,15 @@
       <option name="presentableId" value="Default" />
       <updated>1480468811892</updated>
       <workItem from="1480468813144" duration="16384000" />
-      <workItem from="1480637587913" duration="16922000" />
+      <workItem from="1480637587913" duration="17530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33306000" />
+    <option name="totallyTimeSpent" value="33914000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1170" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1170" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -2051,30 +2051,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding>
-            <marker date="1480732418038" expanded="true" signature="0:1405" ph="{&quot;name&quot;: &quot;laravel/laravel&quot;...}" />
-            <marker date="1480732418038" expanded="true" signature="180:288" ph="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
-            <marker date="1480732418038" expanded="true" signature="309:552" ph="{&quot;fzaninotto/faker&quot;: &quot;~1.4&quot;...}" />
-            <marker date="1480732418038" expanded="true" signature="570:749" ph="{...}" />
-            <marker date="1480732418038" expanded="true" signature="592:626" ph="[...]" />
-            <marker date="1480732418038" expanded="true" signature="644:685" ph="[...]" />
-            <marker date="1480732418038" expanded="true" signature="704:743" ph="{&quot;App\&quot;: &quot;app/&quot;...}" />
-            <marker date="1480732418038" expanded="true" signature="771:843" ph="{...}" />
-            <marker date="1480732418038" expanded="true" signature="793:837" ph="[...]" />
-            <marker date="1480732418038" expanded="true" signature="860:1344" ph="{...}" />
-            <marker date="1480732418038" expanded="true" signature="899:965" ph="[...]" />
-            <marker date="1480732418038" expanded="true" signature="1002:1052" ph="[...]" />
-            <marker date="1480732418038" expanded="true" signature="1082:1196" ph="[...]" />
-            <marker date="1480732418038" expanded="true" signature="1225:1338" ph="[...]" />
-            <marker date="1480732418038" expanded="true" signature="1360:1403" ph="{&quot;preferred-install&quot;: &quot;dist&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
@@ -2240,14 +2216,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
@@ -2298,6 +2266,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" column="100" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding>
+            <marker date="1480734687762" expanded="false" signature="10:400" ph="..." />
+            <marker date="1480734687762" expanded="true" signature="416:459" ph="..." />
+            <marker date="1480734687762" expanded="true" signature="434:458" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="27" />
           <folding />
         </state>
       </provider>
