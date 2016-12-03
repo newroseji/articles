@@ -1,0 +1,1 @@
+@extends(filter_var(env('APP_DEBUG', true)) ? 'debug.app' : 'release.app')
