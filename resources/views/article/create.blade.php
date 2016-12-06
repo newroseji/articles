@@ -9,57 +9,59 @@
 
                     <form action="/articles" method="POST">
 
-                        {!! csrf_field()!!}
+                    {!! csrf_field()!!}
 
 
 
 
-                            <!-- Title Form Input -->
-                            <div class="form-group {{ $errors->has('title') ? ' has-error' : '' }}">
+                    <!-- Title Form Input -->
+                        <div class="form-group {{ $errors->has('title') ? ' has-error' : '' }}">
 
-                                <label for="title">Title:</label> <span class="required">*</span>
+                            <label for="title">Title:</label> <span class="required">*</span>
 
-                                <div class="input-group col-md-12">
+                            <div class="input-group col-md-12">
 
-                                    <input type="text" name="title" id="title" placeholder="Title" class="form-control"
-                                           value="{{old('title')}}">
-                                </div>
+                                <input type="text" name="title" id="title" placeholder="Title" class="form-control"
+                                       value="{{old('title')}}">
+                            </div>
 
-                                @if ($errors->has('title'))
-                                    <span class="help-block">
+                            @if ($errors->has('title'))
+                                <span class="help-block">
                                         <strong>{{ $errors->first('title') }}</strong>
                                     </span>
-                                @endif
-                            </div>
+                            @endif
+                        </div>
 
-                            <!-- Body Form Input -->
-                            <div class="form-group {{ $errors->has('body') ? ' has-error' : '' }} ">
-                                <label for="body">Body:</label> <span class="required">*</span>
+                        <!-- Body Form Input -->
+                        <div class="form-group {{ $errors->has('body') ? ' has-error' : '' }} ">
+                            <label for="body">Body:</label> <span class="required">*</span>
 
-                                <textarea name="body"
-                                          placeholder="Type a brief body here..." rows="11"
-                                          id="body" class="form-control col-md-12">{{old('body')}}</textarea>
-                                @if ($errors->has('body'))
-                                    <span class="help-block">
+                            <textarea name="body"
+                                      placeholder="Type a brief body here..." rows="11"
+                                      id="body" class="form-control col-md-12">{{old('body')}}</textarea>
+                            <script type="text/javascript">
+                                CKEDITOR.replace('body');
+                            </script>
+                            @if ($errors->has('body'))
+                                <span class="help-block">
                                         <strong>{{ $errors->first('body') }}</strong>
                                     </span>
-                                @endif
-                            </div>
+                            @endif
+                        </div>
 
-                            <!-- Published At Form Input -->
-                            <div class="form-group {{ $errors->has('published_at') ? ' has-error' : '' }} ">
-                                <label for="published_at">Published On:</label> <span class="required">*</span>
+                        <!-- Published At Form Input -->
+                        <div class="form-group {{ $errors->has('published_at') ? ' has-error' : '' }} ">
+                            <label for="published_at">Published On:</label> <span class="required">*</span>
 
-                                <input type="text" name="published_at"
-                                       placeholder="mm/dd/yyyy"
-                                       id="published_at" class="form-control" value="{{date('m/d/Y')}}">
-                                @if ($errors->has('published_at'))
-                                    <span class="help-block">
+                            <input type="text" name="published_at"
+                                   placeholder="mm/dd/yyyy"
+                                   id="published_at" class="form-control" value="{{date('m/d/Y')}}">
+                            @if ($errors->has('published_at'))
+                                <span class="help-block">
                                         <strong>{{ $errors->first('published_at') }}</strong>
                                     </span>
-                                @endif
-                            </div>
-
+                            @endif
+                        </div>
 
 
                         <div class="col-md-12 margin-top-20 text-center text-muted">

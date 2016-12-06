@@ -8,10 +8,10 @@
                 <div class="panel-body">
 
                     <form action="/articles/{{$articles->id}}" method="POST">
-                    {{method_field('PATCH')}}
-                    {!! csrf_field()!!}
-<input type="hidden" name="id" value="{{$articles->id}}">
-                    <!-- Title Form Input -->
+                        {{method_field('PATCH')}}
+                        {!! csrf_field()!!}
+                        <input type="hidden" name="id" value="{{$articles->id}}">
+                        <!-- Title Form Input -->
                         <div class="form-group {{ $errors->has('title') ? ' has-error' : '' }}">
 
                             <label for="title">Title:</label> <span class="required">*</span>
@@ -35,7 +35,10 @@
 
                             <textarea name="body"
                                       placeholder="Type a brief body here..." rows="11"
-                                      id="body" class="form-control col-md-12">{{$articles->body}}</textarea>
+                                      id="body" class="form-control col-md-12">{!! $articles->body !!}</textarea>
+                            <script type="text/javascript">
+                                CKEDITOR.replace('body');
+                            </script>
                             @if ($errors->has('body'))
                                 <span class="help-block">
                                         <strong>{{ $errors->first('body') }}</strong>
@@ -49,7 +52,8 @@
 
                             <input type="text" name="published_at"
                                    placeholder="mm/dd/yyyy"
-                                   id="published_at" class="form-control" value="{{$articles->published_at->format('m/d/Y')}}">
+                                   id="published_at" class="form-control"
+                                   value="{{$articles->published_at->format('m/d/Y')}}">
                             @if ($errors->has('published_at'))
                                 <span class="help-block">
                                         <strong>{{ $errors->first('published_at') }}</strong>
@@ -64,7 +68,8 @@
                         <div class="col-md-12">
 
                             <div class="form-group margin-top-20">
-                                <button type="submit" class="btn btn-primary"><i class="glyphicon glyphicon-save-file"></i>
+                                <button type="submit" class="btn btn-primary"><i
+                                            class="glyphicon glyphicon-save-file"></i>
                                     Update
                                 </button>
                                 <a href="{{ URL::previous() }}" class="btn btn-link" title="Cancel">cancel</a>

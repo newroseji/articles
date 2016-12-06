@@ -39,6 +39,10 @@
     <link href="/assets/css/styles.css" rel="stylesheet">
 
     @yield("styles")
+
+
+    <script src="/assets/js/ckeditor/ckeditor.js"></script>
+
 </head>
 <body ng-controller="AppMainController">
 
@@ -72,7 +76,6 @@
 <script src="/assets/sweetalert2/dist/sweetalert2.min.js"></script>
 <script src="/assets/sweetalert2/dist/ng-sweet-alert.js"></script>
 <script src="/assets/lity.2.2.0/lity.min.js"></script>
-
 
 <script src="/assets/js/app.js"></script>
 @yield("scripts")

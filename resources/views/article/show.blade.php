@@ -36,7 +36,7 @@
 
                 <article>
                     <div class="body">
-                        {{$articles->body}}
+                        {!! $articles->body!!}
                     </div>
 
                 </article>

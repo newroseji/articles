@@ -23,7 +23,7 @@
             <h6>published {{$article->published_at->diffForHumans()}}</h6>
             <hr/>
             <div class="body">
-                {{str_limit($article->body,420)}}
+                {!! str_limit($article->body,420)!!}
                 <br/>
 
                 @if (strlen($article->body)>420)
