@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1431e0b-d49f-4456-966a-8611ae15ab7a" name="Default" comment="Throttle functionality added along with a simple PhpUnit Test">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/ArticlePageTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Article.php" afterPath="$PROJECT_DIR$/app/Article.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/article/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/article/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/article/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/article/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/debug/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/debug/app.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/headers/_dynav.blade.php" afterPath="$PROJECT_DIR$/resources/views/headers/_dynav.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/pages/search.blade.php" afterPath="$PROJECT_DIR$/resources/views/pages/search.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/release/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/release/app.blade.php" />
-    </list>
+    <list default="true" id="c1431e0b-d49f-4456-966a-8611ae15ab7a" name="Default" comment="" />
     <ignored path="articles.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -168,6 +154,9 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/public/assets/sweetalert2/node_modules" />
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -538,7 +527,13 @@
       <option name="project" value="LOCAL" />
       <updated>1499366399384</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Additional functionality such as Search.">
+      <created>1499376626219</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1499376626219</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -590,7 +585,8 @@
     <MESSAGE value="Changed the Readme file." />
     <MESSAGE value="Added bullets" />
     <MESSAGE value="Throttle functionality added along with a simple PhpUnit Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Throttle functionality added along with a simple PhpUnit Test" />
+    <MESSAGE value="Additional functionality such as Search." />
+    <option name="LAST_COMMIT_MESSAGE" value="Additional functionality such as Search." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
