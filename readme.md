@@ -1,3 +1,15 @@
+# My Blog
+This is work-in-progress web application based on Laravel PHP Framework. User can use this phototype to create a personal blog or even large scale websites. It is a simple yet elegant that can attract number of visitors every minutes.
+
+# Tools/Features
+User Authentication - User authentication and verification via email for Login/Registration
+Twitter Bootstrap
+Ckeditor - WYSIWYG features
+Dropzone - For uploading images
+intervention/image
+Navigation highlighter
+
+
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
@@ -25,15 +37,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
-# articles
-This is work-in-progress web application. 
-
-# Features
-Email verification registration
-Photo upload
-Bootstrap
-Navigation highlighter
-
-# Tools used
-intervention/image
-Dropzone
