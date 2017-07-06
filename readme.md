@@ -2,12 +2,12 @@
 This is work-in-progress web application based on Laravel PHP Framework. User can use this phototype to create a personal blog or even large scale websites. It is a simple yet elegant that can attract number of visitors every minutes.
 
 # Tools/Features
-User Authentication - User authentication and verification via email for Login/Registration
-Twitter Bootstrap
-Ckeditor - WYSIWYG features
-Dropzone - For uploading images
-intervention/image
-Navigation highlighter
+- User Authentication - User authentication and verification via email for Login/Registration
+- Twitter Bootstrap
+- Ckeditor - WYSIWYG features
+- Dropzone - For uploading images
+- intervention/image
+- Navigation highlighter
 
 
 # Laravel PHP Framework
