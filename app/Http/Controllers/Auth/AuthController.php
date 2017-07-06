@@ -40,7 +40,7 @@
 		 * AuthController constructor.
 		 */
 		public function __construct() {
-			$this->middleware([$this->guestMiddleware(),'throttle:3,1'], ['except' => 'logout']);
+			$this->middleware([$this->guestMiddleware(),'throttle:20,1'], ['except' => 'logout']);
 		}
 
 
