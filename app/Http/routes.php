@@ -11,22 +11,24 @@
 	|
 	*/
 
-	Route::get('/', function () {
-		return view('app');
-	});
+Route::get('/', function () {
+	return view('app');
+});
 
 
-	Route::resource('articles', 'ArticlesController');
-	Route::post('article/photos/{articles}', ['as' => 'store_photo_path', 'uses' => 'ArticlesController@addPhoto']);
+Route::resource('articles', 'ArticlesController');
+Route::post('article/photos/{articles}', ['as' => 'store_photo_path', 'uses' => 'ArticlesController@addPhoto']);
 
-	Route::delete('photos/{id}', 'PhotosController@destroy');
+Route::delete('photos/{id}', 'PhotosController@destroy');
 
-	Route::auth();
-	Route::get('register/confirm/{token}', 'Auth\AuthController@confirmEmail');
+Route::auth();
+Route::get('register/confirm/{token}', 'Auth\AuthController@confirmEmail');
 
 
-	Route::get('user/dashboard', 'UsersController@dashboard');
-	Route::get('user/profile', 'UsersController@profile');
-	Route::get('user/edit', 'UsersController@edit');
-	Route::post('user/update', 'UsersController@update');
-	Route::post('user/pw', 'UsersController@pwUpdate');
+Route::get('user/dashboard', 'UsersController@dashboard');
+Route::get('user/profile', 'UsersController@profile');
+Route::get('user/edit', 'UsersController@edit');
+Route::post('user/update', 'UsersController@update');
+Route::post('user/pw', 'UsersController@pwUpdate');
+
+Route::get('search', 'SearchController@index');

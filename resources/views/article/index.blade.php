@@ -1,5 +1,5 @@
 @extends('layouts.layout')
-@section('page-title','Create a new flyer')
+@section('page-title','Create a new article')
 @section('content')
 
     <div class="panel panel-default margin-top-20">

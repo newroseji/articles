@@ -8,15 +8,15 @@
     <meta name="author" content="Niraj Byanjankar">
     <link rel="icon" href="favicon.ico">
 
-    <meta name="description" content="Project Flyer is the Laravel based web application to keep track of Flyers."/>
-    <link rel="canonical" href="http://www.projectflyer.com" />
+    <meta name="description" content="{{title_case($appTitle)}} is the Laravel based web application."/>
+    <link rel="canonical" href="http://www.{{str_slug($appTitle)}}.com" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Project Flyer" />
+    <meta property="og:title" content="{{title_case($appTitle)}}" />
     <meta property="og:description" content="" />
-    <meta property="og:url" content="http://www.projectflyer.com" />
-    <meta property="og:site_name" content="Project Flyer" />
-    <meta property="og:image" content="http://www.projectflyer.com" />
+    <meta property="og:url" content="http://www.{{str_slug($appTitle)}}.com" />
+    <meta property="og:site_name" content="{{title_case($appTitle)}}" />
+    <meta property="og:image" content="http://www.{{str_slug($appTitle)}}.com" />
 
     <title>@yield('page-title') - {{title_case($appTitle)}}</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">

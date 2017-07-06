@@ -1,5 +1,5 @@
 @extends('layouts.layout')
-@section('page-title','Create a new flyer')
+@section('page-title','Create a new article')
 @section('content')
     <div class="row margin-top-20">
         <div class="col-md-10 col-md-offset-1">

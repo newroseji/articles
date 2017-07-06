@@ -6,31 +6,31 @@
         <div class="panel-heading">
 
             <div class="panel-heading-custom">
-                <h3>Search results for "{{$container['key']}}"</h3>
-                <h3><a href="/flyers/create"> <i class="glyphicon glyphicon-plus-sign"></i> </a></h3>
+                <h3>Search results for "{{$container['text']}}"</h3>
+
             </div>
         </div>
         <div class="panel-body">
             @if(count($container['results'])>0)
 
                 <ul class="list-group">
-                    @foreach($container['results'] as $flyer)
+                    @foreach($container['results'] as $result)
 
-
-                            <li class="list-group-item">
-                        <span>
-                        <a href="/flyers/{{$flyer['zip']}}/{{$flyer['street']}}">{{$flyer['street']}}, {{$flyer['city']}}
-                            , {{$flyer['zip']}} {{$flyer['state']}}</a>
-                            </span>
-                                <span class="pull-right">{{$flyer['updated_at']}}</span>
-                            </li>
-
-
+                        <li class = "list-group-item">
+                            <h3>
+                                <a href = "/articles/{{$result->id}}"> {!! \App\Article::highlightWords($result->title,$container['text'])!!}</a>
+                            </h3>
+                            <p>
+                                {!! \App\Article::highlightWords($result->body,$container['text'])!!}
+                            </p>
+                        </li>
                     @endforeach
                 </ul>
-
+                <div class = "text-center">
+                    {!! $container['results']->appends(Request::except('page'))->render() !!}
+                </div>
             @else
-                <span class="badge">No results found.</span>
+                <span class="badge">No results found</span>
             @endif
 
         </div>

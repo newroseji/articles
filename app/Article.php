@@ -71,5 +71,16 @@
 			return $this->photos()->save($photo);
 		}
 
+		/**
+		 * Highlight the searched text.
+		 *
+		 * @param $title
+		 * @param $searched_word
+		 * @return mixed
+         */
+		public static function highlightWords($title, $searched_word) {
+			return preg_replace('#('.$searched_word.')#i','<mark>\1</mark>',$title) ;
+		}
+
 
 	}

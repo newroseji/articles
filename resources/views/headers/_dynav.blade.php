@@ -69,7 +69,12 @@
                 <div class="form-group" style="display:inline;">
                     <div class="input-group search-bar" style="display:table;">
 
-                        <input class="form-control" name="q" placeholder="Search Here" autocomplete="off" autofocus="autofocus" type="text">
+                        <input class="form-control"
+                               name="text"
+                               placeholder="@if ($errors->has('text')) {{ $errors->first('text') }} @else Search Here @endif "
+                               required
+                               autocomplete="off"
+                               autofocus="autofocus" type="text">
                         <div class="input-group-btn">
 
                         </div>

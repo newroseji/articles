@@ -8,6 +8,7 @@ This is work-in-progress web application based on Laravel PHP Framework. User ca
 - Dropzone - For uploading images
 - intervention/image
 - Navigation highlighter
+- Throttle
 
 
 # Laravel PHP Framework
