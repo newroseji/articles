@@ -18,7 +18,7 @@
     <meta property="og:site_name" content="Project Flyer" />
     <meta property="og:image" content="http://www.projectflyer.com" />
 
-    <title>@yield('page-title') - Articles</title>
+    <title>@yield('page-title') - {{title_case($appTitle)}}</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->

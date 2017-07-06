@@ -13,7 +13,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-		// construct a main navigation
+		/* construct a main navigation */
 		$navItems = array(
 			array(
 
@@ -30,6 +30,11 @@ class AppServiceProvider extends ServiceProvider
 		view()->composer(['app','debug.app','release.app'], function ($view) use ($navItems) {
 			$view->with('navItems', $navItems);
 		});
+		
+		/** Give a global application name.
+		 * TBD: We can get this dynamically from db too.
+		*/
+		view()->share('appTitle','My Blog');
     }
 
     /**
